@@ -1,0 +1,70 @@
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.buttons {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.button {
+  background-color: #ffffff;
+  color: #121212;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #cccccc;
+}
+
+.input-section {
+  margin: 20px 0;
+}
+
+.inputBox {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 200px;
+  background-color: #333333;
+  color: #ffffff;
+  border: 1px solid #555555;
+}
+
+.inputBox:focus {
+  outline: none;
+  border-color: #777777;
+}
+
+.dynamic-input {
+  margin: 10px 0;
+}
+
+.add-info, .generate-info {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.add-info-button {
+  display: block;
+  margin: 20px auto;
+}
+
+.error {
+  color: #ff0000;
+  margin: 10px 0;
+}
